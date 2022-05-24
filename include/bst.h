@@ -47,13 +47,13 @@ if (root == nullptr) {
   Right = depth_l(root->right);
 }
 if (Right > Left) {
-  ++return Right;
+  return ++Right;
 } else {
-  ++return Left;
+  return ++Left;
 }
 }
- 
- public:
+
+  public:
   BST() :root(nullptr) {}
   void add(const T& value1) {
     root = addNode(root, value1);
