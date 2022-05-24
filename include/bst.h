@@ -53,10 +53,10 @@ if (Right > Left) {
 }
 }
 
-   public:
-    BST() :root(nullptr) {}
+ public:
+  BST() :root(nullptr) {}
   void add(const T& value1) {
-    root = addNode(root, value1);
+   root = addNode(root, value1);
   }
   int search(const T& value1) {
     return searchNode(root, value1);
@@ -65,4 +65,4 @@ if (Right > Left) {
     return depth_l(root) - 1;
   }
 };
-  #endif  // INCLUDE_BST_H_
+#endif  // INCLUDE_BST_H_
