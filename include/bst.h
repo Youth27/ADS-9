@@ -56,7 +56,7 @@ if (Right > Left) {
  public:
   BST() :root(nullptr) {}
   void add(const T& value1) {
-   root = addNode(root, value1);
+    root = addNode(root, value1);
   }
   int search(const T& value1) {
     return searchNode(root, value1);
