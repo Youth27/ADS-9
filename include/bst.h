@@ -52,6 +52,7 @@ if (Right > Left) {
   ++return Left;
 }
 }
+ 
  public:
   BST() :root(nullptr) {}
   void add(const T& value1) {
