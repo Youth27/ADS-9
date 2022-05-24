@@ -18,7 +18,7 @@ while (!file.eof()) {
   while (true) {
     char a = file.get();
     if ((a >= 65 && a <= 90) || (a >= 97 && a <= 122)) {
-    simbol += tolower(a); 
+    simbol += tolower(a);
     } else {
       break;
   }
