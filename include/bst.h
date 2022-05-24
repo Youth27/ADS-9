@@ -1,6 +1,7 @@
 // Copyright 2021 NNTU-CS
 #ifndef INCLUDE_BST_H_
 #define INCLUDE_BST_H_
+
 template<typename T>
 class BST {
  private:
@@ -43,7 +44,7 @@ if (root == nullptr) {
   return 0;
 } else {
   Left = depth_l(root->left);
-  Right = depth_l(root->right); 
+  Right = depth_l(root->right);
 }
 if (Right > Left) {
   ++return Right;
