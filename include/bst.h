@@ -43,12 +43,12 @@ if (root == nullptr) {
   return 0;
 } else {
   Left = depth_l(root->left);
-  Right = depth_l(root->right);
+  Right = depth_l(root->right); 
 }
 if (Right > Left) {
-  return Right;
+  ++return Right;
 } else {
-  return Left;
+  ++return Left;
 }
 }
  public:
